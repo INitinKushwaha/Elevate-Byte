@@ -1,0 +1,2 @@
+import React from 'react'
+export default function About(){ return (<section id="about" className="py-16"><div className="container mx-auto px-6 text-center"><h2 className="text-3xl font-bold">About Elevate Byte</h2><p className="mt-4 text-slate-600 max-w-3xl mx-auto">Founded by a technologist turned recruiter, Elevate Byte blends technical expertise with recruiting to deliver the best talent for US companies.</p></div></section>) }
