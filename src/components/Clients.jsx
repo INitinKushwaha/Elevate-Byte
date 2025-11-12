@@ -29,6 +29,7 @@ export default function Clients() {
       }
     } catch (err) {
       setStatus({ ok: false, msg: 'Error: ' + err.message });
+      e.target.reset();
     } finally {
       setLoading(false);
     }
@@ -101,7 +102,7 @@ export default function Clients() {
                   : 'bg-red-100 text-red-800'
               }`}
             >
-              {status.msg}
+              {/* {status.msg} */}
             </div>
           )}
         </form>

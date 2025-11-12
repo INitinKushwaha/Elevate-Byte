@@ -55,6 +55,14 @@ export default function Candidates() {
     } catch (error) {
       console.error(error);
       setMessage("⚠️ Network error. Please try again later.");
+      setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          experience: "",
+          jobRole: "",
+          resumeLink: "",
+        });
     } finally {
       setLoading(false);
     }
@@ -143,7 +151,7 @@ export default function Candidates() {
           </button>
         </div>
 
-        {message && <p className="mt-4 text-lg text-green-600">{message}</p>}
+        {/* {message && <p className="mt-4 text-lg text-green-600">{message}</p>} */}
       </form>
     </section>
   );
