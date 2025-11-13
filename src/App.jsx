@@ -7,6 +7,9 @@ import Clients from './components/Clients'
 import Contact from './components/Contact'
 import Admin from './components/Admin'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react';
+
+
 
 export default function App(){
   return (
@@ -21,6 +24,7 @@ export default function App(){
               <Candidates />
               <Clients />
               <Contact />
+              <Analytics />
             </main>
             <footer className="bg-gray-900 text-gray-300 py-6 text-center text-sm">© {new Date().getFullYear()} Elevate Byte.</footer>
           </div>
