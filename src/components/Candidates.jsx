@@ -72,8 +72,8 @@ export default function Candidates() {
     <section id="candidates" className="bg-gray-50 py-20 px-4 text-center">
       <h2 className="text-4xl font-bold text-gray-800 mb-8">Join Elevate Byte</h2>
       <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
-        Submit your details below to explore exciting IT opportunities with top
-        U.S. clients.
+        Submit your details below to explore exciting Global opportunities with top
+        Company.
       </p>
 
       <form

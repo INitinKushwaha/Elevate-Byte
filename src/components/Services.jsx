@@ -1,2 +1,7 @@
 import React from 'react';
-export default function Services(){ const services=[{title:'US IT Recruitment',desc:'Contract and full-time staffing across technologies.'},{title:'Talent Sourcing',desc:'End-to-end sourcing, screening.'},{title:'Offshore Partnerships',desc:'Extend your hiring team with offshore recruiters.'}]; return (<section id="services" className="py-16 bg-slate-50"><div className="container mx-auto px-6 text-center"><h3 className="text-3xl font-bold text-primary">Our Services</h3><div className="mt-8 grid md:grid-cols-3 gap-6">{services.map((s,i)=>(<div key={i} className="bg-white p-6 rounded-2xl shadow"><h4 className="text-xl font-semibold mb-2">{s.title}</h4><p className="text-slate-600">{s.desc}</p></div>))}</div></div></section>) }
+export default function Services(){ const services=[
+    {title:'Global Recruitment',desc:'Contract and full-time staffing across technologies.'},
+    {title:'Talent Sourcing',desc:'End-to-end sourcing, screening.'},
+    {title:'Offshore Partnerships',desc:'Extend your hiring team with offshore recruiters.'}
+]; 
+return (<section id="services" className="py-16 bg-slate-50"><div className="container mx-auto px-6 text-center"><h3 className="text-3xl font-bold text-primary">Our Services</h3><div className="mt-8 grid md:grid-cols-3 gap-6">{services.map((s,i)=>(<div key={i} className="bg-white p-6 rounded-2xl shadow"><h4 className="text-xl font-semibold mb-2">{s.title}</h4><p className="text-slate-600">{s.desc}</p></div>))}</div></div></section>) }
